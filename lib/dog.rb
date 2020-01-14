@@ -79,7 +79,7 @@ class Dog
       dog_data_hash = {id: dog_data[0], name: dog_data[1], breed: dog_data[2]}
       dog = Dog.new(dog_data_hash)
     else
-      song = self.create(name: name, album: breed)
+      dog = self.create(name: name, album: breed)
     end
     dog
   end
